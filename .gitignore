@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# ReactJs
+node_modules/
+yarn.lock
+
 # User-specific files
 *.rsuser
 *.suo

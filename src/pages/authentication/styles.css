@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px 0 0 0;
+    background-color: beige;
+    height: 100vh;
+}
+
+.tutorial-section {
+    margin: 16px 0;
+}
+input {
+    margin: 0 8px;
+}
+
+button {
+    margin: 0 8px;
+}

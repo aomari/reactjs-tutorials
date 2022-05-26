@@ -1,21 +1,21 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import About from './pages/About';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Firestore from './pages/firestore/Firestore';
 import Error from './pages/Error';
-import Home from './pages/Home';
-import Profile from './pages/Profile';
+import Home from './pages/home/Home';
+import Authentication from './pages/authentication/Authentication';
 
 function App() {
   return (
     <Router>
-      <nav>
+      {/* <nav>
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About</Link>
         <Link to={"/profile/Amjad"}>Profile</Link>
-      </nav>
+      </nav> */}
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/profile/:username' element={<Profile />} />
+        <Route path='/Firestore' element={<Firestore />} />
+        <Route path='/Authentication' element={<Authentication />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>

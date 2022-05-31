@@ -22,6 +22,22 @@ function Home() {
                     Firebase Authentication
                 </button>
             </div>
+
+            <div className='tutorial-section'>
+                <button onClick={() => {
+                    navigator("/GoogleAuth")
+                }}>
+                    FB Goofle Auth
+                </button>
+            </div>
+
+            <div className='tutorial-section'>
+                <button onClick={() => {
+                    navigator("/UploadImages")
+                }}>
+                    Upload Images
+                </button>
+            </div>
         </div>
     )
 }
